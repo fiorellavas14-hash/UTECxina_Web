@@ -1,75 +1,49 @@
-# React + TypeScript + Vite
+# UTECxina 🤖
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web en desarrollo para acompañar la experiencia universitaria de estudiantes y visitantes de la Universidad de Ingeniería y Tecnología (UTEC).
 
-Currently, two official plugins are available:
+Creada como parte del proyecto académico **UTECxina**, del curso Proyectos Interdisciplinarios II.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 💡 ¿Por qué UTECxina?
 
-## React Compiler
+Encontrar un salón es solo una parte de conocer el campus. También buscamos lugares para estudiar, descansar y comer sin gastar demasiado.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A partir de una encuesta con **44 respuestas**, identificamos estas necesidades como punto de partida para diseñar una herramienta de orientación y apoyo a la vida universitaria.
 
-## Expanding the ESLint configuration
+## 🌐 Este repositorio
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Contiene únicamente la **aplicación web de UTECxina**.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+El proyecto completo también contempla un asistente físico, cuyo firmware y componentes electrónicos no están incluidos aquí.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## ✨ Diseño y experiencia
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+La aplicación busca ofrecer una experiencia cercana y sencilla, con una identidad visual propia:
 
-```
+- Mascota virtual como parte de la interfaz.
+- Colores celeste y rosa.
+- Interfaz adaptable a dispositivos móviles y escritorio.
+- Temporizador de estudio.
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+## 🚧 Estado del proyecto
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+**En desarrollo.** La interfaz y las funciones continúan evolucionando mediante pruebas y mejoras.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 👩‍💻 Mi participación
 
-```
+Trabajo en el desarrollo de la aplicación web, su interfaz y la integración de sus funciones, como parte del proyecto en equipo.
+
+Este proyecto me permite practicar cómo transformar necesidades de usuarios en una aplicación, resolver problemas de implementación y mejorar una experiencia a partir de pruebas.
+
+## 🎓 Contexto académico
+
+| | |
+|---|---|
+| Universidad | Universidad de Ingeniería y Tecnología — UTEC |
+| Curso | Proyectos Interdisciplinarios II |
+| Año | 2026 |
+| Modalidad | Proyecto en equipo |
+
+---
+
+UTECxina es un proyecto académico estudiantil. No es una aplicación oficial de UTEC.
