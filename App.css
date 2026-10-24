@@ -1,0 +1,73 @@
+.welcome {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 24px;
+  background: #eaf8ff;
+  color: #14202b;
+}
+
+.robot {
+  font-size: 90px;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 52px;
+  margin: 0;
+  color: #159bd6;
+}
+
+.subtitle {
+  color: #607684;
+  margin-bottom: 32px;
+}
+
+.welcome-card {
+  background: white;
+  padding: 36px;
+  border-radius: 28px;
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 12px 35px rgba(0, 80, 120, 0.1);
+}
+
+.welcome-card h2 {
+  margin-top: 0;
+}
+
+.welcome-card p {
+  line-height: 1.7;
+  color: #607684;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.primary-button {
+  background: #159bd6;
+  color: white;
+}
+
+.secondary-button {
+  background: #eaf8ff;
+  color: #159bd6;
+}
+
+.footer {
+  margin-top: 35px;
+  color: #607684;
+  font-size: 12px;
+}
